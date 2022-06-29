@@ -1,0 +1,121 @@
+* {
+    font-family: arial; 
+    color:#959595;
+}
+
+body {
+    background: #8DEDA8;
+}
+
+h3 {
+    color: black;
+    padding-top: 2em;
+    margin-left: 0.5em;
+}
+
+.box {
+    margin-left: 30em;
+    margin-top: 6em;
+    background-color:white;
+    display: table;
+    width: 30%;
+    position: relative;
+    padding-bottom: 2em;
+    box-shadow: 0.5em 0.5em 0.5em #599c6c;
+}
+
+.box-semantic {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-login {
+    border-radius: 0.5em;
+    position:static;
+    float: left;
+    margin-left: 5em;
+    margin-top: 1em;
+    width: 7em;
+}
+
+.btn-login , .btn-finalizar {
+    font-family: arial;
+    color: white;
+    background-color: #1EE255;
+}
+
+.btn-forgot-pwd {
+    float: left;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.btn-forgot-pwd, .btn-conta {
+    color: #959595;
+}
+
+.flexbox {
+    border-color: #959595;
+}
+
+.form-control {
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+}
+
+.inline {
+    width: 200px;
+    height: 50px;
+    display: inline;
+}
+
+.vertical {
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.finalizar {
+    width: 1000px;
+    height: 200px;
+    display: inline;
+}
+
+.titulo {
+    border-bottom: 2em;
+}
+
+.div-conta, .div-login {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+#login-email {
+    float: left;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+#login-pwd {
+    float: left;
+    margin-left: 1em;
+}
+
+.btn-conta{
+    margin-top: 1em;
+}
+
+.btn-finalizar {
+    border-radius: 0.7em;
+    position:static;
+    float: left;
+    margin-left: 5em;
+    margin-top: 1em;
+    width: 7em;
+}
+
+.checkbox {
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}

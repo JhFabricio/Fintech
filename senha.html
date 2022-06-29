@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Fintech - Esqueci a senha</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style-login.css" type="text/css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="box-semantic"> 
+                <h3>Redefinir senha</h3>
+                <div class="div-conta">
+                    <label>
+                        <input class="form-control" type="text"  placeholder="Email" id="nome"><br>
+                    </label>
+                    <label>
+                        <input class="form-control" type="number"  placeholder="Código de verificação" pattern="[0-9]{3}/-[0-9]{3}"><br>
+                    </label>
+                    <label>
+                        <input class="form-control" type="password"  placeholder="Nova senha"><br>
+                    </label>
+                    <label>
+                        <input class="form-control" type="password" placeholder="Confirme a nova senha">
+                    </label>
+                </div>
+                <div class="finalizar">
+                    <form action="login.html">
+                        <button type="submit" class="btn btn-finalizar">Redefinir</button>
+                    </form>
+                    <form action="login.html">
+                        <button type="submit" class="btn btn-forgot-pwd">Já sei a senha</button>
+                    </form>
+                </div>
+            </div>    
+            </div>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+.container, .container-fluid {
+    background-color: #8DEDA8;
+}
+
+.row {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+header, main {
+    font-family: arial;
+    background-color: #1EE255;
+    font-size: 50px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    color: white;
+}
+
+main {
+    background-color: white;
+    color: #555555;
+    font-size: medium;
+}
+
+@media screen and (max-width: 1920px) {
+    main {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    main {
+        height: 60vh;
+
+    }
+}
+
+@media screen and (max-width: 520px) {
+    main {
+    height: 50vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    main {
+        background-color: var(--bs-warning);
+    }
+}
+
+.btn-adicionar {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: arial;
+    color: white;
+    background-color:#1EE255;
+    box-shadow: 5px 5px 5px #127e31;
+}
+
+p {
+    font-family: arial;
+    font-size: medium;
+}
+
+.item {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2;
+    border-color: white;
+    border-radius: 0.5em;
+    position:static;
+    float: left;
+    margin-left: 5em;
+    margin-top: 1em;
+    width: 75em;
+    height: 8em;
+}
+
+.linha ul li {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 5em;
+}
+
+li {
+    font-size:larger;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.ul-1, .ul-2, .ul-3, .ul-4 {
+    padding-top: 3em;
+}
+
+#novo_item {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2;
+    border-color: white;
+    border-radius: 0.5em;
+    position:static;
+    float: left;
+    margin-left: 5em;
+    margin-top: 1em;
+    width: 75em;
+    height: 8em;
+}
+
+label {
+    margin-top: 2em;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+
+#ad-nome, #ad-valor, #ad-data, #ad-tipo {
+    border-radius: 0.5em;
+}
